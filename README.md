@@ -16,10 +16,15 @@ Each value are seperated with single space.
 laser starting pos x, pos y, laser direction, destination pos x, pos y
 
 laser direction is given with numbers.
+
 1 is left
+
 2 is right
+
 3 is down
+
 4 is up
+
 
 ## Output
 
