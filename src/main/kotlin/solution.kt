@@ -126,8 +126,8 @@ fun main() {
                         }
                     }
                     Facing.LEFT -> {
-                        faceXCord = cord.x
-                        faceYCord = (cord.y - 9).absoluteValue
+                        faceXCord = (cord.y - 9).absoluteValue
+                        faceYCord = cord.x
                         faceTo = when (cord.facing) {
                             Facing.UP -> Facing.RIGHT
                             Facing.LEFT -> Facing.UP
