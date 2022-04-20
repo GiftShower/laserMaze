@@ -58,7 +58,10 @@ fun main() {
     val mirrorPosition: MutableList<Coordinate> = mutableListOf()
 
     //Calculate
-    if (laserCord.x == destCord.x && laserCord.y < destCord.y) println("사용한 거울이 없습니다.")
+    if (laserCord.x == destCord.x && laserCord.y < destCord.y){
+        println("사용한 거울이 없습니다.")
+        return
+    }
     if (laserCord.y == 9) {
         println("불가능")
         return
@@ -163,6 +166,8 @@ fun main() {
                 )
             }
         }
+    } else {
+        println("응 없어")
     }
 }
 
@@ -174,7 +179,6 @@ fun loadCase(): List<String> {
     // initX, initY, laserFace, destX, destY, mirrorCount
     val problemParams = isrCase.readText().split(" ")
 
-    println(problemParams)
     isrCase.close()
 
     return problemParams
