@@ -172,7 +172,7 @@ fun loadCase(): List<String> {
     val isrCase: InputStreamReader = case.inputStream().reader()
 
     // initX, initY, laserFace, destX, destY, mirrorCount
-    val problemParams = isrCase.readText().split(" ")
+    val problemParams = isrCase.readText().replace("\n", " ").split(" ")
 
     isrCase.close()
 
