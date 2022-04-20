@@ -31,8 +31,8 @@ fun main() {
     val alignedFrom = laserCord.facing
 
     //Align Coordinates to laser facing down at start
-    var laserXCord = 0
-    var laserYCord = 0
+    var laserXCord = laserCord.x
+    var laserYCord = laserCord.y
 
     when (laserCord.facing) {
         Facing.RIGHT -> {
