@@ -2,8 +2,6 @@
 
 # Laser maze problem
 
----
-
 (Actually it's laser chess but unfortunately I am too lazy to fix this)
 
 ![prb](https://github.com/GiftShower/laserMaze/blob/master/image/problem.jpg)
@@ -30,8 +28,6 @@ in the following format as many as the minimum number of mirrors
 used to send the laser to the destination.
 
 Output format: mirror pos x, pos y, direction
-
----
 
 ## Other solutions
 
